@@ -14,7 +14,7 @@ import Details from '../components/Details.vue';
 <style scoped>
 .back-button {
     display: inline-block;
-    background-color: #4073ad;
+    background-color: #7D4B97; /* Lighter purple */
     color: #ffffff;
     padding: 10px 30px;
     font-size: 18px;
@@ -28,6 +28,6 @@ import Details from '../components/Details.vue';
 }
 
 .back-button:hover {
-    background-color: #305a8a;
+    background-color: #4B2C71; /* Darker purple */
 }
 </style>

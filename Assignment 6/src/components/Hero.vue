@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <section class="hero">
         <div class="hero-content">
@@ -13,22 +9,23 @@
 
 <style scoped>
 .hero {
-    background-color: #d0e7f9;
-    color: #10375c;
+    background-color: #9b4d96; /* Purple background */
+    color: #ffffff; /* White text */
     text-align: center;
     padding: 60px 20px;
     margin-bottom: 20px;
-    width: 100%
+    width: 100%;
 }
 
 .hero h1 {
     font-size: 60px;
-    color: #10375c;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 20px;
     margin-bottom: 20px;
+    color: #f2e1f3; /* Lighter purple text */
 }
 </style>

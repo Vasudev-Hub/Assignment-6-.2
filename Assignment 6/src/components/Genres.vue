@@ -56,17 +56,17 @@ onMounted(async () => {
 .movie-gallery select {
     padding: 10px 20px;
     font-size: 18px;
-    border: 1px solid #d0e7f9;
+    border: 1px solid #7D4B97; /* Purple border */
     border-radius: 5px;
     background-color: #fff;
-    color: #305a8a;
+    color: #7D4B97; /* Purple text color */
     cursor: pointer;
     margin-bottom: 20px;
     transition: background-color 0.3s;
 }
 
 .movie-gallery select:hover {
-    background-color: #d0e7f9;
+    background-color: #d0e7f9; /* Light purple on hover */
 }
 
 .movie-list {
@@ -79,13 +79,14 @@ onMounted(async () => {
 }
 
 .movie-card {
-    background-color: #fff;
+    background-color: #4B2C71; /* Dark purple background */
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 220px;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff; /* White text */
 }
 
 .movie-card:hover {
@@ -97,34 +98,35 @@ onMounted(async () => {
     width: 100%;
     height: auto;
     display: block;
-    border-bottom: 2px solid #d0e7f9;
+    border-bottom: 2px solid #7D4B97; /* Purple border */
 }
 
 .movie-title {
     padding: 10px;
     text-align: center;
     font-size: 16px;
-    color: #10375c;
+    color: #fff; /* White text */
     font-weight: 600;
-    background-color: #f7fafd;
-    border-top: 2px solid #d0e7f9;
+    background-color: #7D4B97; /* Lighter purple */
+    border-top: 2px solid #7D4B97; /* Purple border */
 }
 
 .buy-button {
     display: inline-block;
     font-size: 18px;
-    color: #4073ad;
+    color: #fff;
     text-decoration: none;
     margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
-    border: 5px solid #4073ad;
+    border: 2px solid #fff; /* White border */
+    background-color: #7D4B97; /* Lighter purple */
     transition: background-color 0.3s, color 0.3s;
     width: 100%;
 }
 
 .buy-button:hover {
-    background-color: #4073ad;
+    background-color: #4B2C71; /* Darker purple */
     color: #fff;
 }
 </style>

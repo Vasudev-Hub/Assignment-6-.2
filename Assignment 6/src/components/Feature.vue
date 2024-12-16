@@ -49,7 +49,7 @@ onMounted(async () => {
 
 <style scoped>
 h3 {
-    color: #305a8a;
+    color: #fff;
     text-align: center;
     font-size: 28px;
     margin-top: 20px;
@@ -80,26 +80,29 @@ h3 {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #4B2C71; /* Purple background */
     transition: transform 0.3s ease;
+    color: #fff; /* White text color */
 }
 
 .movie-poster {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    border-bottom: 2px solid #f5f5f5;
 }
 
 .movie-title {
     font-size: 16px;
-    color: #333;
+    color: #fff;
     padding: 10px;
-    background-color: #d0e7f9;
+    background-color: #7D4B97; /* Lighter purple background */
     margin: 0;
 }
 
 .movie-card:hover {
     transform: scale(1.05);
+    background-color: #5a1e6f; /* Darker purple on hover */
 }
 
 @media (max-width: 768px) {

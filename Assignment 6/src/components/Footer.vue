@@ -10,8 +10,8 @@
 
 <style scoped>
 div {
-    background-color: #d0e7f9;
-    color: #10375c;
+    background-color: #4B2C71; /* Dark purple background */
+    color: #fff; /* White text */
     text-align: center;
     padding: 10px;
     position: fixed;

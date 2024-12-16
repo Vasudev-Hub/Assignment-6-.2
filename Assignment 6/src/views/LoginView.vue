@@ -31,16 +31,17 @@ const handleLogin = () => {
 
 <style scoped>
 body {
-    background-color: #e9f1f7;
+    background-color: #4B2C71; /* Dark purple background */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     padding: 20px 0 70px;
+    color: #fff; /* White text */
 }
 
 .hero {
-    background-color: #d0e7f9;
-    color: #10375c;
+    background-color: #7D4B97; /* Lighter purple */
+    color: #fff; /* White text */
     text-align: center;
     padding: 60px 20px;
     margin-bottom: 20px;
@@ -48,7 +49,6 @@ body {
 
 .hero h1 {
     font-size: 60px;
-    color: #10375c;
     margin-bottom: 10px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .form-container {
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 10px;
     padding: 40px 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -67,7 +67,7 @@ body {
 }
 
 .form-container h2 {
-    color: #305a8a;
+    color: #7D4B97; /* Lighter purple */
     text-align: center;
     font-size: 28px;
     margin-bottom: 30px;
@@ -84,12 +84,12 @@ body {
 }
 
 .input-field:focus {
-    border-color: #4073ad;
+    border-color: #7D4B97; /* Purple border on focus */
     outline: none;
 }
 
 .button {
-    background-color: #4073ad;
+    background-color: #7D4B97; /* Lighter purple */
     color: #ffffff;
     padding: 12px 30px;
     font-size: 18px;
@@ -102,12 +102,12 @@ body {
 }
 
 .button:hover {
-    background-color: #305a8a;
+    background-color: #4B2C71; /* Darker purple */
 }
 
 footer {
-    background-color: #d0e7f9;
-    color: #10375c;
+    background-color: #7D4B97; /* Lighter purple */
+    color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;

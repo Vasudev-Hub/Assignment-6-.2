@@ -32,7 +32,7 @@ console.log(response.data);
 <style scoped>
 .movie-detail {
     background-color: #ffffff;
-    color: #10375c;
+    color: #2c003e; /* Dark purple text */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@ console.log(response.data);
 
 .movie-title {
     font-size: 40px;
-    color: #10375c;
+    color: #2c003e; /* Dark purple title */
     margin-bottom: 20px;
 }
 
@@ -59,7 +59,7 @@ console.log(response.data);
 .movie-release-date,
 .movie-origin_county {
     font-size: 16px;
-    color: #305a8a;
+    color: #9b4d96; /* Purple */
     margin-bottom: 10px;
 }
 
@@ -71,27 +71,25 @@ console.log(response.data);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.buy-button,
 .movie-site {
     display: inline-block;
     font-size: 18px;
-    color: #4073ad;
+    color: #9b4d96;
     text-decoration: none;
     margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
-    border: 2px solid #4073ad;
+    border: 2px solid #9b4d96;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.buy-button:hover,
 .movie-site:hover {
-    background-color: #4073ad;
+    background-color: #9b4d96;
     color: #fff;
 }
 
 .trailers-title {
-    color: #305a8a;
+    color: #9b4d96;
     font-size: 28px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -122,4 +120,3 @@ console.log(response.data);
     transform: scale(1.05);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-</style>

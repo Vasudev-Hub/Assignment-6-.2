@@ -15,7 +15,6 @@ function logoutAndSignOut(event) {
 
 <template>
   <div class="header-buttons">
-
     <div v-if="!store.email">
       <RouterLink to="/register" class="button register">Register</RouterLink>
       <RouterLink to="/login" class="button login">Login</RouterLink>
@@ -36,7 +35,7 @@ function logoutAndSignOut(event) {
 h1 {
   margin-left: auto;
   padding: 1%;
-  color: #4073ad;
+  color: #ffffff; /* White for the main header text */
 }
 
 .header-buttons {
@@ -48,30 +47,23 @@ h1 {
 
 .button {
   margin-right: 10px;
-}
-
-.header-buttons .button {
-  display: inline-block;
-  background-color: #4073ad;
+  background-color: #9b4d96; /* Purple button background */
   color: #ffffff;
-  padding: 10px 30px;
-  font-size: 18px;
   text-align: center;
-  text-decoration: none;
-  border: none;
-  margin: 5px;
+  font-size: 18px;
+  padding: 10px 30px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .header-buttons .button:hover {
-  background-color: #305a8a;
+  background-color: #5c1e73; /* Darker purple on hover */
 }
 
 .welcome-message {
   margin-right: 20px;
   font-size: 18px;
-  color: #305a8a;
+  color: #f2e1f3; /* Lighter purple text for the welcome message */
 }
 </style>

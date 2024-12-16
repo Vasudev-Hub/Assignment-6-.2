@@ -25,7 +25,7 @@ const store = useStore();
 <style scoped>
 .settings-container {
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 500px;
@@ -33,7 +33,7 @@ const store = useStore();
 }
 
 h2 {
-    color: #305a8a;
+    color: #6c5ce7;
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
@@ -41,7 +41,7 @@ h2 {
 
 p {
     font-size: 18px;
-    color: #10375c;
+    color: #6c5ce7;
     margin-bottom: 15px;
 }
 
@@ -50,19 +50,19 @@ input {
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #d0e7f9;
+    border: 1px solid #e1e1e1;
     margin-top: 5px;
 }
 
 input:focus {
     outline: none;
-    border-color: #4073ad;
+    border-color: #6c5ce7;
 }
 
 .back-button {
     display: inline-block;
-    background-color: #4073ad;
-    color: #ffffff;
+    background-color: #6c5ce7;
+    color: white;
     padding: 10px 30px;
     font-size: 18px;
     text-align: center;
@@ -75,6 +75,7 @@ input:focus {
 }
 
 .back-button:hover {
-    background-color: #305a8a;
+    background-color: #4e3dbf;
 }
+
 </style>

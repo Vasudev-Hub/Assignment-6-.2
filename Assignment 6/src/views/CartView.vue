@@ -27,14 +27,15 @@ const store = useStore();
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #4B2C71; /* Dark purple background */
+    color: #fff; /* White text */
     font-family: Arial, sans-serif;
     padding: 20px;
 }
 
 h2 {
     text-align: center;
-    color: #333333;
+    color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -43,7 +44,7 @@ h2 {
 .item {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #7D4B97; /* Lighter purple background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
@@ -71,14 +72,14 @@ h2 {
 }
 
 .item-details h3 {
-    color: #444444;
+    color: #fff;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #4073ad;
+    background-color: #7D4B97; /* Lighter purple */
     color: white;
     border: none;
     border-radius: 5px;
@@ -88,13 +89,13 @@ button {
 }
 
 button:hover {
-    background-color: #4073ad;
+    background-color: #4B2C71; /* Dark purple */
     transform: scale(1.05);
 }
 
 .back-button {
     display: inline-block;
-    background-color: #4073ad;
+    background-color: #7D4B97; /* Lighter purple */
     color: #ffffff;
     padding: 10px 30px;
     font-size: 18px;
@@ -108,6 +109,6 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #305a8a;
+    background-color: #4B2C71; /* Darker purple */
 }
 </style>
