@@ -1,30 +1,47 @@
 <script setup>
-import { RouterLink, useRouter } from 'vue-router';
 import { ref } from 'vue';
+import { useStore } from '../store';
+import { useRouter } from 'vue-router';
 
+const store = useStore();
 const router = useRouter();
-const password = ref('');
 
-const handleLogin = () => {
-    if (password.value === "123") {
-        router.push("/movies");
+const firstName = ref('');
+const lastName = ref('');
+const email = ref('');
+const password = ref('');
+const reEnterPassword = ref('');
+
+const handleRegister = () => {
+    if (password.value === reEnterPassword.value) {
+        store.firstName = firstName.value;
+        store.lastName = lastName.value;
+        store.email = email.value;
+        store.password = password.value;
+        router.push('/movies');
     } else {
-        alert("Invalid Password");
+        alert('Passwords do not match!');
+    
     }
 };
+
 </script>
 
 <template>
-    <h1 class="hero">VFlix</h1>
-    <RouterLink to="/register" class="button register">Register</RouterLink>
+    <h1 class="hero">StreamFlix</h1>
+    <RouterLink to="/Login" class="button register">Login</RouterLink>
     <RouterLink to="/" class="button home">Back to Home</RouterLink>
 
     <div class="form-container">
-        <h2>Login to Your Account</h2>
-        <form @submit.prevent="handleLogin">
-            <input type="email" placeholder="Email" class="input-field" required />
+        <h2>Register Account</h2>
+        <form @submit.prevent="handleRegister">
+            <input v-model="firstName" type="text" placeholder="First Name" class="input-field" required />
+            <input v-model="lastName" type="text" placeholder="Last Name" class="input-field" required />
+            <input v-model="email" type="email" placeholder="Email" class="input-field" required />
             <input v-model="password" type="password" placeholder="Password" class="input-field" required />
-            <button type="submit" class="button login">Login</button>
+            <input v-model="reEnterPassword" type="password" placeholder="Re-enter Password" class="input-field"
+                required />
+            <button type="submit" class="button login">Register</button>
         </form>
     </div>
 </template>

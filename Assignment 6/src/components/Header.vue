@@ -28,7 +28,7 @@ function logoutAndSignOut(event) {
       <RouterLink to="/" class="button settings" @click="logoutAndSignOut">Logout</RouterLink>
     </div>
 
-    <h1>VFlix</h1>
+    <h1>StreamFlix</h1>
   </div>
 </template>
 

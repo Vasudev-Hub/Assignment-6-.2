@@ -5,7 +5,7 @@
 <template>
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to VFlix</h1>
+            <h1>Welcome to StreamFlix</h1>
             <p>Stream your favorite movies and shows anytime, anywhere.</p>
         </div>
     </section>

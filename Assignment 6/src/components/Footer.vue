@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <h4>Viraj Parmar</h4>
+        <h4>© 2024 StreamFlix, All Rights Reserved.</h4>
     </div>
 </template>
 
